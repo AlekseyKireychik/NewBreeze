@@ -1,0 +1,430 @@
+@media screen and (max-width: 1199px) {
+    .header__item {
+        padding: 0 5px 0px;
+    }
+
+    .home__top {
+        flex-direction: column;
+    }
+
+    .home__top .wrap__img {
+        max-width: 740px;
+        right: -110px;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+
+    .home__top .wrap__img img {
+        width: 100%;
+    }
+
+    .about__img {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .about__img img {
+        width: 100%;
+    }
+
+    .social {
+        padding-bottom: 90px;
+    }
+
+    .left img {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .home__baner {
+        margin-top: 0px;
+    }
+
+    .home__top {
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        margin-bottom: 70px;
+    }
+
+    .home__top .wrap__img {
+        max-width: 100%;
+        position: relative;
+        right: 0px;
+        padding-top: 0px;
+        top: 0px;
+    }
+
+    .caption__title {
+        font-size: 45px;
+    }
+
+    .header__function {
+        margin-left: auto;
+        margin-right: 100px;
+    }
+
+    .header__logo {
+        padding: 14px 0;
+    }
+
+    .header__logoimg {
+        width: 120px;
+    }
+
+    .burger-menu__button {
+        display: block;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav.is-active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background: #521AC9;
+    }
+
+    .header__list-nav {
+        padding-top: 90px;
+        padding-left: 52px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header__item {
+        padding-bottom: 35px;
+    }
+
+    .header__link {
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 400;
+        position: relative;
+    }
+
+    .header__link:hover,
+    .header__link:active {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .about__content {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .social {
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+
+    .marketing__item {
+        width: 100%;
+    }
+
+    .marketing__item {
+        margin-bottom: 20px;
+    }
+
+    .marketing__item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h2 {
+        margin-bottom: 20px;
+    }
+
+    .form__footer {
+        width: 100%;
+    }
+
+    .left img {
+        display: none;
+    }
+    .contacts{
+        background-image: url("../img/bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    .contacts .bottom {
+        padding-bottom: 0px;
+        flex-direction: column;
+    }
+
+    .form__box {
+        text-align: left;
+    }
+}
+
+/*@media screen and (min-width: 760px) and (max-width: 770px) {*/
+    /*.slick-next {*/
+        /*right: -25px;*/
+    /*}*/
+
+    /*.slick-prev {*/
+        /*left: -25px;*/
+    /*}*/
+/*}*/
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .btn {
+        padding: 9px 60px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .caption__text {
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        margin-bottom: 5px;
+    }
+    .caption__title {
+        line-height: 26px;
+        font-size: 19px;
+    }
+    .about .title {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+    .about__content p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .social {
+        padding-bottom: 50px;
+    }
+    .social .title {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    .social__item {
+        width: 100%;
+        min-height: auto;
+    }
+    social__containerIimg img {
+        max-width: 37px;
+    }
+    .social__item h4 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .social__item p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .marketing {
+        padding: 35px 20px;
+    }
+    .marketing__item {
+        padding: 0 15px;
+    }
+    .marketing .title {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .marketing__item p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .buy{
+        padding-top: 60px;
+    }
+    .buy .title {
+        margin-bottom: 30px;
+    }
+    .buy__item {
+        margin: 0 auto;
+    }
+    .buy__item img {
+        width: 64px;
+        margin: 0 auto 25px;
+    }
+    .buy__item h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .buy__item p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .buy__item:nth-child(1):before{
+        display: none;
+    }
+    .buy__item:nth-child(2):before{
+        display: none;
+    }
+    .buy__item:nth-child(3):before{
+        display: none;
+    }
+    .contacts .top__title {
+        margin-top: -120px;
+    }
+    .contacts .top__title .title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .left h2 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-right: 50px;
+    }
+    .contacts .wrap {
+        margin-top: 50px;
+    }
+    .footer {
+        padding: 30px 0 25px;
+        display: flex;
+    }
+    .address {
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .footer .address p {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer .footer__description {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .footer__logo {
+        width: 100%;
+        order: 1;
+        margin-bottom: 5px;
+    }
+    .footer__logo .footer__logo__mobile {
+        display: block;
+        margin: 0 auto 30px;
+
+    }
+    .footer__logo .footer__logo__desk {
+        display: none;
+    }
+    .footer__logo p {
+        text-align: center;
+    }
+
+}
+
+    @media screen and (max-width: 576px) {
+        body.is-active .header {
+            background: #521AC9;
+            border-bottom: 1px solid #521AC9;
+        }
+        body.is-active .header__logoimg.disable {
+            display: none;
+        }
+        body.is-active .header__logoimg.is-active {
+            display: block;
+        }
+        .home__top {
+            padding: 20px 20px 70px;
+            margin-bottom: 0px;
+        }
+        .header__list-nav {
+            padding-top: 50px;
+            padding-left: 0;
+        }
+        .header__logo {
+            padding-left: 20px;
+        }
+        .header__nav.is-active{
+            top: 59px;
+        }
+        .home__top .wrap__img {
+            padding-top: 40px;
+        }
+        .wrap__img .bg__img__desc {
+            display: none;
+        }
+        .wrap__img .bg__img__mobile {
+            display: block;
+        }
+        .burger-menu.is-active .burger-menu__lines:before {
+            background-color: #fff;
+        }
+        .burger-menu.is-active .burger-menu__lines:after {
+            background-color: #fff;
+        }
+        .caption {
+            width: 100%;
+        }
+        .caption__title {
+            margin-bottom: 15px;
+        }
+        .btn {
+            width: 100%;
+        }
+        .about {
+            padding-bottom: 50px;
+        }
+        .about__content {
+            padding-right: 20px;
+        }
+        .about__img__desc {
+            display: none;
+        }
+        .about__img__mobile {
+            display: block;
+        }
+        .social {
+            padding: 20px 20px 50px;
+        }
+        .marketing {
+            border-radius: 25px;
+        }
+        .contacts {
+            padding: 70px 20px 0;
+            border-radius: 15px 15px 0px 0px;
+        }
+        .contacts .top__title {
+            border-radius: 10px;
+        }
+        .contacts .top__title .title {
+            margin-bottom: 16px;
+            margin-top: 15px;
+        }
+        .footer .address p {
+            max-width: 225px;
+            margin: 0 auto 30px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .header__logo {
+            padding-left: 5px;
+        }
+
+        .burger-menu {
+            right: 5px;
+        }
+
+        .header__function {
+            margin-right: 60px;
+        }
+    }
