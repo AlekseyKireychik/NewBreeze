@@ -5,7 +5,7 @@ if (empty($result['error'])) {
     $name = protection($_POST['name']);
     $email = protection($_POST['email']);
     $mes = protection($_POST['mes']);
-    $to .= "info@newbreeze.com";
+    $to .= "test@test.com";
 
     $subject = 'Breeze';
 
@@ -24,7 +24,7 @@ if (empty($result['error'])) {
 
     $headers[] = 'MIME-Version: 1.0';
     $headers[] = 'Content-type: text/html; charset=utf-8';
-    $headers[] = 'From: info@newbreeze.com';
+    $headers[] = 'From: test@test.com';
 
     mail($to, $subject, $message, implode("\r\n", $headers));
 
